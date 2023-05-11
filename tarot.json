@@ -1,0 +1,16 @@
+{
+    "tarot": [
+        {
+            "title": "The King",
+            "desc": "The King Desc"
+        },
+        {
+            "title": "The Queen",
+            "desc": "The Queen Desc"
+        },
+        {
+            "title": "The Joker",
+            "desc": "The Joker Desc"
+        }
+    ]
+}
