@@ -1,28 +1,798 @@
 {
-    "tarot": [
-        {
-            "title": "Nine of Cups",
-            "desc": "Life is good because you've worked diligently to make it."
-        },
-        {
-            "title": "Ace of Pentacles",
-            "desc": "This humble pentacle contains a multitude of possibilities. Your pentacle is a magic seed."
-        },
-        {
-            "title": "The Magician",
-            "desc": "You are at the fullness of your power, poised to create reality in accordance with your desires."
-        },
-        {
-            "title": "Nine of Cups",
-            "desc": "Life is good because you've worked diligently to make it."
-        },
-        {
-            "title": "Ace of Pentacles",
-            "desc": "This humble pentacle contains a multitude of possibilities. Your pentacle is a magic seed."
+    "tarot": [{
+            "title": "The Fool",
+            "orientation": [{
+                    "upright": "beginnings, innocence, leap of faith"
+                },
+                {
+                    "reversed": "foolishness, recklessness, naivete"
+                }
+
+            ]
         },
         {
             "title": "The Magician",
-            "desc": "You are at the fullness of your power, poised to create reality in accordance with your desires."
-        }
+            "orientation": [{
+                    "upright": "willpower, desire, creation, manifestation"
+                },
+                {
+                    "reversed": "trickery, illusions, out of touch"
+                }
+
+            ]
+        },
+        {
+            "title": "The Empress",
+            "orientation": [{
+                    "upright": "motherhood, fertility, nature"
+                },
+                {
+                    "reversed": "dependence, smothering, emptiness, nosiness"
+                }
+
+            ]
+        },
+        {
+            "title": "The Emperor",
+            "orientation": [{
+                    "upright": "authority, structure, control, fatherhood"
+                },
+                {
+                    "reversed": "tyranny, rigidity, coldness"
+                }
+
+            ]
+        },
+        {
+            "title": "The Hierophant",
+            "orientation": [{
+                    "upright": "tradition, conformity, morality, ethics"
+                },
+                {
+                    "reversed": "rebellion, subversiveness, new approaches"
+                }
+
+            ]
+        },
+        {
+            "title": "The Lovers",
+            "orientation": [{
+                    "upright": "partnerships, duality, union"
+                },
+                {
+                    "reversed": "loss of balance, one-sidedness, disharmony"
+                }
+
+            ]
+        },
+        {
+            "title": "The Chariot",
+            "orientation": [{
+                    "upright": "direction, control, willpower"
+                },
+                {
+                    "reversed": "lack of control, lack of direction, aggression"
+                }
+
+            ]
+        },
+        {
+            "title": "Strength",
+            "orientation": [{
+                    "upright": "inner strength, bravery, compassion, focus"
+                },
+                {
+                    "reversed": "self doubt, weakness, insecurity"
+                }
+
+            ]
+        },
+        {
+            "title": "The Hermit",
+            "orientation": [{
+                    "upright": "contemplation, search for truth, inner guidance"
+                },
+                {
+                    "reversed": "loneliness, isolation, lost your way"
+                }
+
+            ]
+        },
+        {
+            "title": "The Wheel of Fortune",
+            "orientation": [{
+                    "upright": "change, cycles, inevitable fate"
+                },
+                {
+                    "reversed": "no control, clinging to control, bad luck"
+                }
+
+            ]
+        },
+        {
+            "title": "Justice",
+            "orientation": [{
+                    "upright": "cause and effect, clarity, truth"
+                },
+                {
+                    "reversed": "dishonesty, unaccountability, unfairness"
+                }
+
+            ]
+        },
+        {
+            "title": "The Hanged Man",
+            "orientation": [{
+                    "upright": "sacrifice, release, martyrdom"
+                },
+                {
+                    "reversed": "stalling, needless sacrifice, fear of sacrifice"
+                }
+
+            ]
+        },
+        {
+            "title": "Death",
+            "orientation": [{
+                    "upright": "end of cycle, beginnings, change, metamorphosis"
+                },
+                {
+                    "reversed": "fear of change, holding on, stagnation, decay"
+                }
+
+            ]
+        },
+        {
+            "title": "Temperance",
+            "orientation": [{
+                    "upright": "middle path, patience, finding meaning"
+                },
+                {
+                    "reversed": "extremes, excess, lack of balance"
+                }
+
+            ]
+        },
+        {
+            "title": "The Devil",
+            "orientation": [{
+                    "upright": "addiction, materialism, playfulness"
+                },
+                {
+                    "reversed": "freedom, release, restoring control"
+                }
+
+            ]
+        },
+        {
+            "title": "The Tower",
+            "orientation": [{
+                    "upright": "sudden upheaval, broken pride, disaster"
+                },
+                {
+                    "reversed": "disaster avoided, delayed disaster, fear of suffering"
+                }
+
+            ]
+        },
+        {
+            "title": "The Star",
+            "orientation": [{
+                    "upright": "hope, faith, rejuvenation"
+                },
+                {
+                    "reversed": "faithlessness, discouragement, insecurity"
+                }
+
+            ]
+        },
+        {
+            "title": "The Moon",
+            "orientation": [{
+                    "upright": "unconscious, illusions, intuition"
+                },
+                {
+                    "reversed": "confusion, fear, misinterpretation"
+                }
+
+            ]
+        },
+        {
+            "title": "The Sun",
+            "orientation": [{
+                    "upright": "joy, success, celebration, positivity"
+                },
+                {
+                    "reversed": "negativity, depression, sadness"
+                }
+
+            ]
+        },
+        {
+            "title": "Judgement",
+            "orientation": [{
+                    "upright": "reflection, reckoning, awakening"
+                },
+                {
+                    "reversed": "lack of self awareness, doubt, self-loathing"
+                }
+
+            ]
+        },
+        {
+            "title": "The World",
+            "orientation": [{
+                    "upright": "fulfillment, harmony, completion"
+                },
+                {
+                    "reversed": "incompletion, no closure"
+                }
+
+            ]
+        },
+        [{
+                "title": "Ace of Wands",
+                "orientation": [{
+                        "upright": "new beginnings, creativity, passion"
+                    },
+                    {
+                        "reversed": "stagnation, lack of motivation, frustration"
+                    }
+                ]
+            },
+            {
+                "title": "Two of Wands",
+                "orientation": [{
+                        "upright": "choices, decision-making, planning"
+                    },
+                    {
+                        "reversed": "indecision, impulsiveness, lack of focus"
+                    }
+                ]
+            },
+            {
+                "title": "Three of Wands",
+                "orientation": [{
+                        "upright": "collaboration, teamwork, expansion"
+                    },
+                    {
+                        "reversed": "isolation, self-doubt, lack of support"
+                    }
+                ]
+            },
+            {
+                "title": "Four of Wands",
+                "orientation": [{
+                        "upright": "celebration, happiness, harmony"
+                    },
+                    {
+                        "reversed": "disharmony, conflict, instability"
+                    }
+                ]
+            },
+            {
+                "title": "Five of Wands",
+                "orientation": [{
+                        "upright": "competition, conflict, rivalry"
+                    },
+                    {
+                        "reversed": "cooperation, compromise, peace"
+                    }
+                ]
+            },
+            {
+                "title": "Six of Wands",
+                "orientation": [{
+                        "upright": "success, achievement, recognition"
+                    },
+                    {
+                        "reversed": "failure, disappointment, rejection"
+                    }
+                ]
+            },
+            {
+                "title": "Seven of Wands",
+                "orientation": [{
+                        "upright": "challenge, conflict, determination"
+                    },
+                    {
+                        "reversed": "retreat, surrender, defeat"
+                    }
+                ]
+            },
+            {
+                "title": "Eight of Wands",
+                "orientation": [{
+                        "upright": "speed, communication, travel"
+                    },
+                    {
+                        "reversed": "delays, obstacles, stagnation"
+                    }
+                ]
+            },
+            {
+                "title": "Nine of Wands",
+                "orientation": [{
+                        "upright": "determination, perseverance, resilience"
+                    },
+                    {
+                        "reversed": "doubt, fear, insecurity"
+                    }
+                ]
+            },
+            {
+                "title": "Ten of Wands",
+                "orientation": [{
+                        "upright": "overwhelm, stress, exhaustion"
+                    },
+                    {
+                        "reversed": "relief, rest, relaxation"
+                    }
+                ]
+            },
+            {
+                "title": "Page of Wands",
+                "orientation": [{
+                        "upright": "inspiration, creativity, enthusiasm"
+                    },
+                    {
+                        "reversed": "discouragement, boredom, lack of motivation"
+                    }
+                ]
+            },
+            {
+                "title": "Knight of Wands",
+                "orientation": [{
+                        "upright": "action, passion, courage"
+                    },
+                    {
+                        "reversed": "impulsiveness, recklessness, aggression"
+                    }
+                ]
+            },
+            {
+                "title": "Queen of Wands",
+                "orientation": [{
+                        "upright": "creativity, passion, warmth"
+                    },
+                    {
+                        "reversed": "insecurity, jealousy, manipulation"
+                    }
+                ]
+            },
+            {
+                "title": "King of Wands",
+                "orientation": [{
+                        "upright": "leadership, ambition, confidence"
+                    },
+                    {
+                        "reversed": "arrogance, stubbornness, impulsiveness"
+                    }
+                ]
+            },
+            [{
+                    "title": "Ace of Cups",
+                    "orientation": [{
+                            "upright": "new beginnings, love, joy"
+                        },
+                        {
+                            "reversed": "stagnation, emotional blockage, heartbreak"
+                        }
+                    ]
+                },
+                {
+                    "title": "Two of Cups",
+                    "orientation": [{
+                            "upright": "union, partnership, harmony"
+                        },
+                        {
+                            "reversed": "conflict, separation, loneliness"
+                        }
+                    ]
+                },
+                {
+                    "title": "Three of Cups",
+                    "orientation": [{
+                            "upright": "celebration, happiness, friendship"
+                        },
+                        {
+                            "reversed": "disharmony, conflict, jealousy"
+                        }
+                    ]
+                },
+                {
+                    "title": "Four of Cups",
+                    "orientation": [{
+                            "upright": "contentment, satisfaction, apathy"
+                        },
+                        {
+                            "reversed": "dissatisfaction, boredom, longing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Five of Cups",
+                    "orientation": [{
+                            "upright": "disappointment, loss, grief"
+                        },
+                        {
+                            "reversed": "hope, recovery, acceptance"
+                        }
+                    ]
+                },
+                {
+                    "title": "Six of Cups",
+                    "orientation": [{
+                            "upright": "nostalgia, childhood, innocence"
+                        },
+                        {
+                            "reversed": "regret, longing, stagnation"
+                        }
+                    ]
+                },
+                {
+                    "title": "Seven of Cups",
+                    "orientation": [{
+                            "upright": "choices, possibilities, temptation"
+                        },
+                        {
+                            "reversed": "confusion, indecision, illusion"
+                        }
+                    ]
+                },
+                {
+                    "title": "Eight of Cups",
+                    "orientation": [{
+                            "upright": "walking away, letting go, change"
+                        },
+                        {
+                            "reversed": "regret, longing, attachment"
+                        }
+                    ]
+                },
+                {
+                    "title": "Nine of Cups",
+                    "orientation": [{
+                            "upright": "contentment, satisfaction, happiness"
+                        },
+                        {
+                            "reversed": "dissatisfaction, longing, emptiness"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ten of Cups",
+                    "orientation": [{
+                            "upright": "happiness, fulfillment, harmony"
+                        },
+                        {
+                            "reversed": "disappointment, loss, sadness"
+                        }
+                    ]
+                },
+                {
+                    "title": "Page of Cups",
+                    "orientation": [{
+                            "upright": "inspiration, creativity, imagination"
+                        },
+                        {
+                            "reversed": "indecision, daydreaming, immaturity"
+                        }
+                    ]
+                },
+                {
+                    "title": "Knight of Cups",
+                    "orientation": [{
+                            "upright": "emotion, intuition, compassion"
+                        },
+                        {
+                            "reversed": "impulsiveness, sentimentality, escapism"
+                        }
+                    ]
+                },
+                {
+                    "title": "Queen of Cups",
+                    "orientation": [{
+                            "upright": "compassion, empathy, intuition"
+                        },
+                        {
+                            "reversed": "emotional instability, moodiness, manipulation"
+                        }
+                    ]
+                },
+                {
+                    "title": "King of Cups",
+                    "orientation": [{
+                            "upright": "compassion, empathy, wisdom"
+                        },
+                        {
+                            "reversed": "emotional instability, indecisiveness, manipulation"
+                        }
+                    ]
+                },
+                [{
+                        "title": "Ace of Swords",
+                        "orientation": [{
+                                "upright": "new beginnings, clarity, truth"
+                            },
+                            {
+                                "reversed": "stagnation, confusion, deception"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Two of Swords",
+                        "orientation": [{
+                                "upright": "indecision, choices, conflict"
+                            },
+                            {
+                                "reversed": "clarity, resolution, peace"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Three of Swords",
+                        "orientation": [{
+                                "upright": "heartbreak, sorrow, grief"
+                            },
+                            {
+                                "reversed": "healing, recovery, hope"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Four of Swords",
+                        "orientation": [{
+                                "upright": "rest, peace, recuperation"
+                            },
+                            {
+                                "reversed": "stagnation, boredom, isolation"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Five of Swords",
+                        "orientation": [{
+                                "upright": "conflict, competition, rivalry"
+                            },
+                            {
+                                "reversed": "cooperation, compromise, peace"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Six of Swords",
+                        "orientation": [{
+                                "upright": "travel, change, leaving the past behind"
+                            },
+                            {
+                                "reversed": "stagnation, regret, attachment"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Seven of Swords",
+                        "orientation": [{
+                                "upright": "deception, trickery, secrecy"
+                            },
+                            {
+                                "reversed": "honesty, integrity, truth"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Eight of Swords",
+                        "orientation": [{
+                                "upright": "feeling trapped, limited, restricted"
+                            },
+                            {
+                                "reversed": "freedom, liberation, escape"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Nine of Swords",
+                        "orientation": [{
+                                "upright": "anxiety, worry, fear"
+                            },
+                            {
+                                "reversed": "peace, calm, serenity"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ten of Swords",
+                        "orientation": [{
+                                "upright": "defeat, despair, hopelessness"
+                            },
+                            {
+                                "reversed": "hope, recovery, renewal"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Page of Swords",
+                        "orientation": [{
+                                "upright": "intellect, curiosity, communication"
+                            },
+                            {
+                                "reversed": "impulsiveness, recklessness, lack of focus"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Knight of Swords",
+                        "orientation": [{
+                                "upright": "action, courage, decisiveness"
+                            },
+                            {
+                                "reversed": "impulsiveness, recklessness, aggression"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Queen of Swords",
+                        "orientation": [{
+                                "upright": "intelligence, logic, independence"
+                            },
+                            {
+                                "reversed": "cruelty, manipulation, coldness"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "King of Swords",
+                        "orientation": [{
+                                "upright": "authority, justice, wisdom"
+                            },
+                            {
+                                "reversed": "tyranny, cruelty, injustice"
+                            }
+                        ]
+                    },
+                    [{
+                            "title": "Ace of Pentacles",
+                            "orientation": [{
+                                    "upright": "new beginnings, abundance, prosperity"
+                                },
+                                {
+                                    "reversed": "lack, limitation, stagnation"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Two of Pentacles",
+                            "orientation": [{
+                                    "upright": "choices, duality, balance"
+                                },
+                                {
+                                    "reversed": "indecision, instability, lack of focus"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Three of Pentacles",
+                            "orientation": [{
+                                    "upright": "collaboration, teamwork, cooperation"
+                                },
+                                {
+                                    "reversed": "competition, conflict, isolation"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Four of Pentacles",
+                            "orientation": [{
+                                    "upright": "security, stability, material possessions"
+                                },
+                                {
+                                    "reversed": "greed, miserliness, lack of abundance"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Five of Pentacles",
+                            "orientation": [{
+                                    "upright": "loss, poverty, hardship"
+                                },
+                                {
+                                    "reversed": "hope, recovery, renewal"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Six of Pentacles",
+                            "orientation": [{
+                                    "upright": "generosity, charity, compassion"
+                                },
+                                {
+                                    "reversed": "selfishness, greed, lack of compassion"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Seven of Pentacles",
+                            "orientation": [{
+                                    "upright": "hard work, perseverance, delayed gratification"
+                                },
+                                {
+                                    "reversed": "impatience, laziness, lack of focus"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Eight of Pentacles",
+                            "orientation": [{
+                                    "upright": "mastery, skill, expertise"
+                                },
+                                {
+                                    "reversed": "mediocrity, laziness, lack of focus"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Nine of Pentacles",
+                            "orientation": [{
+                                    "upright": "contentment, satisfaction, security"
+                                },
+                                {
+                                    "reversed": "greed, miserliness, lack of abundance"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ten of Pentacles",
+                            "orientation": [{
+                                    "upright": "happiness, fulfillment, security"
+                                },
+                                {
+                                    "reversed": "loss, poverty, hardship"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Page of Pentacles",
+                            "orientation": [{
+                                    "upright": "potential, new beginnings, learning"
+                                },
+                                {
+                                    "reversed": "laziness, lack of focus, immaturity"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Knight of Pentacles",
+                            "orientation": [{
+                                    "upright": "hard work, perseverance, dedication"
+                                },
+                                {
+                                    "reversed": "laziness, lack of focus, irresponsibility"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Queen of Pentacles",
+                            "orientation": [{
+                                    "upright": "nurturing, stability, security"
+                                },
+                                {
+                                    "reversed": "greed, miserliness, lack of compassion"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "King of Pentacles",
+                            "orientation": [{
+                                    "upright": "success, mastery, abundance"
+                                },
+                                {
+                                    "reversed": "greed, miserliness, lack of compassion"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        ]
     ]
 }
