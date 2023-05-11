@@ -1,16 +1,16 @@
 {
     "tarot": [
         {
-            "title": "The King",
-            "desc": "The King Desc"
+            "title": "Nine of Cups",
+            "desc": "Life is good because you've worked diligently to make it so."
         },
         {
-            "title": "The Queen",
-            "desc": "The Queen Desc"
+            "title": "Ace of Pentacles",
+            "desc": "This humble pentacle contains a multitude of possibilities. Your pentacle is a magic seed."
         },
         {
-            "title": "The Joker",
-            "desc": "The Joker Desc"
+            "title": "The Magician",
+            "desc": "You are at the fullness of your power, poised to create reality in accordance with your desires."
         }
     ]
 }

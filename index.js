@@ -15,11 +15,11 @@ function pickTarot(cards) {
     }
 
     // pick card
-    cardNum = Math.round(Math.random() * cards[tarot].length - 1);
-    card = cards[tarot][cardNum].title;
-    desc = cards[tarot][cardNum].desc;
+    cardNum = Math.round(Math.random() * cards.tarot.length - 1);
+    card = cards.tarot[cardNum].title;
+    desc = cards.tarot[cardNum].desc;
 
-    str = `Fates have drawn you to the ${card}! ${desc}.`
+    str = `Fates have drawn you to ${card}! ${desc}.`;
 
     return str;
 
