@@ -11,7 +11,7 @@ function pickTarot(cards) {
     }
 
     // pick card
-    console.log(cards);
+    return cards;
 
 }
 
