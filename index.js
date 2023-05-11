@@ -19,7 +19,7 @@ function pickTarot(cards) {
     card = cards.tarot[cardNum].title;
     desc = cards.tarot[cardNum].desc;
 
-    str = `Fates have drawn you to ${card}! ${desc}.`;
+    str = `Fates have drawn you to ${card}! ${desc}`;
 
     return str;
 
